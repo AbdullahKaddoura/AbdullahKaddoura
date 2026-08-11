@@ -3,7 +3,9 @@
     "AbdullahKaddoura"
   ],
   "height": 12,
-  "last_placed_at": {},
+  "last_placed_at": {
+    "AbdullahKaddoura": 1786468651.4488
+  },
   "pixels": {
     "10,4": {
       "at": "2026-08-11T17:15:39+00:00",
@@ -16,9 +18,9 @@
       "color": "red"
     },
     "10,6": {
-      "at": "2026-08-11T17:15:39+00:00",
+      "at": "2026-08-11T17:17:31+00:00",
       "by": "AbdullahKaddoura",
-      "color": "red"
+      "color": "blue"
     },
     "10,7": {
       "at": "2026-08-11T17:15:39+00:00",
@@ -141,6 +143,6 @@
       "color": "red"
     }
   },
-  "placements": 27,
+  "placements": 28,
   "width": 20
 }
