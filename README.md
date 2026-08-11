@@ -26,6 +26,7 @@ them up.
 
 | Demo | Repository | What It Does |
 | :---: | :--- | :--- |
+| <a href="https://github.com/AbdullahKaddoura/ppg-vitals"><img src="https://raw.githubusercontent.com/AbdullahKaddoura/ppg-vitals/main/docs/demo.svg" width="190" alt="ppg-vitals" /></a> | **[ppg-vitals](https://github.com/AbdullahKaddoura/ppg-vitals)** | Vital signs from photoplethysmography waveforms — heart rate, pulse-rate variability, SpO₂ and blood-pressure features. Quality-gated, so a corrupted signal returns nothing rather than a confident wrong number. |
 | <a href="https://github.com/AbdullahKaddoura/Bizzy-Frontend"><img src="assets/bizzy_demo.jpg" width="190" alt="Bizzy" /></a> | **[Bizzy](https://github.com/AbdullahKaddoura/Bizzy-Frontend)** · [backend](https://github.com/AbdullahKaddoura/Bizzy-Backend) | AI business co-pilot. Takes a founder from a raw idea to a costed roadmap by routing the conversation through five reasoning engines. |
 | <a href="https://github.com/AbdullahKaddoura/acwr"><img src="https://raw.githubusercontent.com/AbdullahKaddoura/acwr/main/docs/demo.svg" width="190" alt="acwr" /></a> | **[acwr](https://github.com/AbdullahKaddoura/acwr)** | Acute:chronic workload ratio for athlete monitoring. Rolling and EWMA methods, injury-risk zones, zero dependencies. |
 | <a href="https://github.com/AbdullahKaddoura/castit"><img src="https://raw.githubusercontent.com/AbdullahKaddoura/castit/main/docs/demo.svg" width="190" alt="castit" /></a> | **[castit](https://github.com/AbdullahKaddoura/castit)** | Streams a local video to your phone or TV over wifi. Direct-plays when the codecs allow, transcodes with FFmpeg when they don't. |
@@ -46,6 +47,8 @@ them up.
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
   <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" alt="SciPy" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
