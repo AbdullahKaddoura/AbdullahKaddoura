@@ -30,6 +30,9 @@ CELL = 20  # rendered px per cell in the README grid
 
 # Palette. Keys are what a user types in an issue title; values are hex.
 PALETTE = {
+    # "empty" is the unpainted default: a neutral slate that recedes in both
+    # GitHub themes. White as a *default* reads as a bright slab in dark mode.
+    "empty": "#7d8590",
     "white": "#ffffff",
     "black": "#1b1f23",
     "red": "#e5484d",
@@ -39,7 +42,7 @@ PALETTE = {
     "blue": "#3e63dd",
     "purple": "#8e4ec6",
 }
-DEFAULT_COLOR = "white"
+DEFAULT_COLOR = "empty"
 
 # How long a single user must wait between placements.
 COOLDOWN_SECONDS = 30
