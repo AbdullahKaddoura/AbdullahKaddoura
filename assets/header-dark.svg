@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250"
+     viewBox="0 0 880 250" role="img"
+     aria-label="Abdullah Kaddoura — AI systems, health data pipelines, Dubai">
+  <style>
+    .bg     { fill: #0d1117; }
+    .name   { fill: #e6edf3; font: 700 40px ui-monospace, 'SFMono-Regular',
+              'JetBrains Mono', Menlo, Consolas, monospace; letter-spacing: -0.5px; }
+    .role   { fill: #8b949e; font: 400 16px ui-monospace, 'SFMono-Regular',
+              'JetBrains Mono', Menlo, Consolas, monospace; }
+    .stage  { fill: #8b949e; font: 400 13px ui-monospace, 'SFMono-Regular',
+              'JetBrains Mono', Menlo, Consolas, monospace; letter-spacing: 0.4px; }
+    .track  { stroke: #30363d; stroke-width: 2; }
+    .node   { fill: #161b22; stroke: #4d8bf0; stroke-width: 2;
+              animation: pulse 2.2s ease-in-out infinite; }
+    .ring   { fill: none; stroke: #4d8bf0; stroke-width: 2;
+              opacity: 0; animation: halo 2.2s ease-out infinite; }
+    .packet { fill: #3fb950;
+              animation: flow 5.5s linear infinite; }
+    .caret  { fill: #3fb950; animation: blink 1.1s step-end infinite; }
+
+    @keyframes flow {
+      0%   { transform: translateX(0);      opacity: 0; }
+      6%   { opacity: 1; }
+      94%  { opacity: 1; }
+      100% { transform: translateX(756px); opacity: 0; }
+    }
+    @keyframes pulse {
+      0%, 100% { r: 7; }
+      50%      { r: 8.5; }
+    }
+    @keyframes halo {
+      0%   { r: 8;  opacity: 0.55; }
+      70%  { r: 20; opacity: 0; }
+      100% { r: 20; opacity: 0; }
+    }
+    @keyframes blink {
+      0%, 50%   { opacity: 1; }
+      50.01%, 100% { opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .packet, .node, .ring, .caret { animation: none; }
+      .ring { opacity: 0; }
+    }
+  </style>
+
+  <rect class="bg" width="880" height="250" rx="14"/>
+
+  <text class="name" x="62" y="86">Abdullah Kaddoura</text>
+  <rect class="caret" x="62" y="112" width="11" height="19" rx="1.5"/>
+  <text class="role" x="84" y="128">AI systems · wearable health data · Dubai</text>
+
+  <line class="track" x1="62" y1="178" x2="818" y2="178"/>
+  <circle class="packet" cx="62" cy="178" r="4" style="animation-delay:0.00s"/><circle class="packet" cx="62" cy="178" r="4" style="animation-delay:1.83s"/><circle class="packet" cx="62" cy="178" r="4" style="animation-delay:3.66s"/>
+  <circle class="ring" cx="62" cy="178" r="10" style="animation-delay:0.00s"/><circle class="ring" cx="314" cy="178" r="10" style="animation-delay:0.55s"/><circle class="ring" cx="566" cy="178" r="10" style="animation-delay:1.10s"/><circle class="ring" cx="818" cy="178" r="10" style="animation-delay:1.65s"/>
+  <circle class="node" cx="62" cy="178" r="7" style="animation-delay:0.00s"/><circle class="node" cx="314" cy="178" r="7" style="animation-delay:0.55s"/><circle class="node" cx="566" cy="178" r="7" style="animation-delay:1.10s"/><circle class="node" cx="818" cy="178" r="7" style="animation-delay:1.65s"/>
+  <text class="stage" x="62" y="212" text-anchor="middle">capture</text><text class="stage" x="314" y="212" text-anchor="middle">normalise</text><text class="stage" x="566" y="212" text-anchor="middle">reason</text><text class="stage" x="818" y="212" text-anchor="middle">ship</text>
+</svg>
