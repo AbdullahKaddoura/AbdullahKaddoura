@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img src="assets/header-dark.svg" width="820" alt="Abdullah Kaddoura — AI systems, wearable health data, Dubai">
+  <img src="assets/header-dark.svg" width="820" alt="Abdullah Kaddoura — AI systems, Building, Dubai">
 </picture>
 
 <p>
